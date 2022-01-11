@@ -10,3 +10,5 @@ server_main: ./*
 	go install simple-go-server
 	go env -u GOBIN
 
+clean: 
+	rm -rf bin/
